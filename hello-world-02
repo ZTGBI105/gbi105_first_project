@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>applyfilter</title>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>	
+<style>
+body{
+	margin-top:250px;
+	margin-right:300px;
+	margin-bottom:300px;
+	margin-left: 300px;
+	width: auto; 
+	
+	border-color:rgb(88,89,91);
+}
+.header{
+	font-size:20px;
+	color:rgb(88,89,91);  
+}	
+.date{
+	display:block;
+
+}
+.cb{
+	display:block;
+	border-bottom:rgb(88,89,91);
+}
+.container{
+	 
+    user-select: none;
+    font-size:15px;
+    padding-left: 10px;
+    color:rgb(88,89,91);  	
+}
+.container input{
+	position: absolute;
+	opacity:20px;
+	 height: 0;
+	 width: 0;
+}
+.cotainer:hover{color:black; }
+.checkmark{
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    padding-left: 5px;
+    
+}
+.checkbox{
+
+	padding-left: 30px;
+}
+.btn{
+	background-color:rgb(19,129,189);
+	color:white;
+	border:none;
+	font-size:15px; 
+	display: inline-block;
+	text-decoration: none;
+	padding: 5px 20px;
+}
+.btn:hover{cursor: pointer;}
+section{
+	line-height: 10px;
+}
+::-webkit-scrollbar{width:10px;};
+
+</style>
+</head>
+<body>
+  <div class="header">
+  <label>Apply Filters</label>
+  <a href="assign.htm"><i class="fas fa-times-circle" style="float:right;"></i></a>
+  </div><hr>
+  <div class="date;">
+  	<label>Viwe data between dates</label><br>
+  <section >
+  	<label>From</label>
+  	<label style="color: white">_______</label>
+  	<i class="fas fa-calendar-week"></i>
+  	<label>To</label>
+  	<label style="color: white">______</label>
+  	<i class="fas fa-calendar-week"></i>
+  </div>
+  </section>
+  <hr>
+      
+   <div class="cb;">
+   	<h4 style="color:rgb(88,89,91); ">Choose colums to view</h4>
+   
+    <input type="checkbox">
+    <label class="container">No.of Venders
+    <span class="checkmark"></span><br>
+    </label>
+    <input type="checkbox">
+    <label class="container">No. of Members
+    <span class="checkmark"></span><br>
+    </label>
+    <input type="checkbox">
+    <label class="container">No.of Events
+    <span class="checkmark"></span><br>
+    </label>
+    <input type="checkbox">
+    <label class="container">No. of Reviews
+    <span class="checkmark"></span><br>
+    </label>
+    <input type="checkbox">
+    <label class="container">No. of discussions
+    <span class="checkmark"></span><br>
+    </label>
+    <input type="checkbox">
+    <label class="container">Weekly active users
+    <span class="checkmark"></span><br>
+    </label>
+    <input type="checkbox">
+    <label class="container">Daily active users
+    <span class="checkmark"></span><br>
+    </label>
+   </div><hr>
+  <div class="footer;">
+  	<button class="btn">Apply Filter</button>
+  	<a href="assign.htm"><button class="btn">Cancle</button></a>
+  </div> 
+</body>
+</html>
