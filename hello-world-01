@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Meramohalla</title>
+	<style>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>		
+body.bd{background-color: rgb(249,248,246);}
+
+table{
+	border-collapse: collapse;
+	width:100%;
+	padding-top:100px:
+	padding-right:50px;
+	padding-left:50px;
+	padding-bottom:200px;   
+	color:rgb(88,89,91); 
+	font-size:15px; 
+}
+#tb td,#tb th{
+  border:1px solid rgb(175,174,172)  ;
+  padding: 6px;
+  padding:10px 20px;
+}
+#tb tr:nth-child(even){
+	background-color:rgb(249,248,246);
+	 }
+#up{
+	display:flex;
+	margin-top: 50px;
+}
+#tb{
+	margin-right: 50px;
+	margin-left: 50px;	
+}
+.btn{
+background-color:rgb(19,129,189);
+color:white; 
+border:none;
+font-size: 13px;
+padding:5px 10px;
+}
+.btn:hover{cursor: pointer;}
+.topnav{
+	background-color: white;
+	width:100%;              
+	height:40px;
+	
+	word-spacing:0px; 	
+	margin-top:0px; 
+	box-shadow: 2px,3px,1px;
+
+}
+a{
+  background-color:white;
+  color:rgb(88,89,91); 	
+  text-decoration:none;  
+  padding:10px 25px;
+}
+a:hover{
+ background-color:rgb(19,129,189); 
+ color:white;	
+}
+.cantainer{
+	float:right;
+	margin-right: 30px;
+	font-size: 15px;
+	}
+.active{
+	background-color: rgb(88,89,91);
+    color:white;}	
+th{color:rgb(252,99,61);}
+.fit{
+	display: block;
+	margin-top:30px;
+}
+</style>
+</head>
+<body class="bd" >
+ <div class="topnav">
+  <label style="color:rgb(19,129,189);
+  background-color:white;
+  word-spacing:0.2px;
+  font-size:30px; ",href="#claims">Mera Mohalla</label>
+  <a class="active" href="#home">Home</a>
+  <a href="#claims">Claims</a>
+  <a href="#flags">Flags</a>
+  <a href="#statistics">Statistics</a>
+  <input type="text" placeholder="Search user,vender,locality,event" name="search" ><i class="fas fa-search"></i></input>
+  <a href="#Nikhiladmin" style="color:rgb(19,129,189); background-color:white;word-spacing:0.2px;float:right;padding:8px 20px;">Nikhil Admin</a>
+  </div>
+
+<div class="fit">
+<label style="color:rgb(88,89,91);font-size: 25px;">Home</label>
+<div class="cantainer" >
+	<button  class="btn" >Add Vendor</button>
+	<button class="btn" >Add Categary</button>
+	<button class="btn">Add Locality</button>
+</div>
+</div><br>
+<div  id="up" >
+<h5 style="color:rgb(88,89,91);">Viwing records since beginning</h5>
+<button class="hov"
+style="background-color:rgb(19,129,189);
+color:white;border:none;padding:0px 5px;">
+<a style="background-color:rgb(19,129,189);color:white " href="2nd assign.htm">Apply Filters
+</a>
+</button>
+</div>
+<table id="tb">
+  <tr>
+    <th >Locality name</th>
+    <th>No. of venders</th>
+    <th>No. of events</th>
+    <th>No.of Questions</th>
+    <th>No. of Stores</th>
+    <th>No. of Reviews</th>
+    <th>No. of Flags</th>
+  </tr>
+  
+  <tr>
+    <td style="color:rgb(19,129,189)">ABC</td>
+    <td>02</td>
+    <td>28</td>
+    <td>28</td>
+    <td>28</td>
+    <td>28</td>
+    <td>28</td>
+    
+  </tr>
+  <tr>
+    <td style="color:rgb(19,129,189)">Bose Nagar</td>
+    <td>12</td>
+    <td>47</td>
+    <td>47</td>
+    <td>47</td>
+    <td>47</td>
+    <td>47</td>
+    
+  </tr>
+  <tr>
+    <td style="color:rgb(19,129,189)" >ABC</td>
+    <td>04</td>
+    <td>74</td>
+    <td>74</td>
+    <td>74</td>
+    <td>74</td>
+    <td>74</td>
+    
+  </tr>
+  </tr>
+  <tr>
+    <td style="color:rgb(19,129,189)">Bose Nagar</td>
+    <td>08</td>
+    <td>52</td>
+    <td>52</td>
+    <td>52</td>
+    <td>52</td>
+    <td>52</td>
+    
+  </tr>
+  </tr>
+  <tr>
+    <td style="color:rgb(19,129,189)">ABC</td>
+    <td>10</td>
+    <td>29</td>
+    <td>29</td>
+    <td>29</td>
+    <td>29</td>
+    <td>29</td>
+    
+  </tr>
+  <tr>
+    <td style="color:rgb(19,129,189)">Bose Nagar</td>
+    <td>12</td>
+    <td>87</td>
+    <td>87</td>
+    <td>87</td>
+    <td>87</td>
+    <td>87</td>
+    
+  </tr>
+  <tr>
+    <td style="color:rgb(19,129,189)">ABC</td>
+    <td>11</td>
+    <td>84</td>
+    <td>84</td>
+    <td>84</td>
+    <td>84</td>
+    <td>84</td>
+    
+  </tr>
+</table>
+
+
+</body>
+</html>
